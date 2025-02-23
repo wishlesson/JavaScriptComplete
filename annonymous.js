@@ -8,3 +8,8 @@ textBox.addEventListener("keydown", logKey);
 textBox.addEventListener("keydown", function (event) {
     console.log(`You pressed "${event.key}".`);
 });
+
+//Arrow function
+textBox.addEventListener("keydown", (event) => {
+    console.log(`You pressed "${event.key}".`);
+});
